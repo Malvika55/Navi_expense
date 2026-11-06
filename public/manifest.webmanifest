@@ -1,0 +1,17 @@
+{
+  "name": "NaviPulse Expense Tracker",
+  "short_name": "NaviPulse",
+  "description": "Personal expense tracker and money manager",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f7fa",
+  "theme_color": "#6339f5",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
