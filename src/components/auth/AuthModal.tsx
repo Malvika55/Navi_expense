@@ -63,7 +63,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onOpenCon
     <Modal
       isOpen={isOpen}
       onClose={onClose}
-      title={user ? 'Account & Cloud Storage' : mode === 'signin' ? 'Sign In to NaviPulse' : 'Create Account'}
+      title={user ? 'Account & Cloud Storage' : mode === 'signin' ? 'Sign In to Navi Plus' : 'Create Account'}
       subtitle="Supabase PostgreSQL Auth with Row Level Security"
       maxWidth="sm"
     >
@@ -265,4 +265,3 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onOpenCon
     </Modal>
   );
 };
-

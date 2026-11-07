@@ -51,7 +51,7 @@ export const TransactionDetailsModal: React.FC<TransactionDetailsModalProps> = (
   };
 
   const handleShareReceipt = () => {
-    const text = `NaviPulse UPI Receipt\n${isIncome ? 'Received from' : 'Paid to'}: ${transaction.title}\nAmount: ${formatINR(transaction.amount, true)}\nDate: ${transaction.date} ${transaction.time}\nRef: ${transaction.reference_id || 'N/A'}`;
+    const text = `Navi Plus UPI Receipt\n${isIncome ? 'Received from' : 'Paid to'}: ${transaction.title}\nAmount: ${formatINR(transaction.amount, true)}\nDate: ${transaction.date} ${transaction.time}\nRef: ${transaction.reference_id || 'N/A'}`;
     navigator.clipboard.writeText(text);
     setCopiedShare(true);
     setTimeout(() => setCopiedShare(false), 2000);
@@ -207,4 +207,3 @@ export const TransactionDetailsModal: React.FC<TransactionDetailsModalProps> = (
     </Modal>
   );
 };
-

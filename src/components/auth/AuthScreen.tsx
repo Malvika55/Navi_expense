@@ -83,7 +83,7 @@ export const AuthScreen: React.FC<AuthScreenProps> = ({ onOpenConfig, onContinue
           </div>
 
           <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-            Navi<span className="text-brand-600 dark:text-brand-400">Pulse</span>
+            Navi<span className="text-brand-600 dark:text-brand-400"> Plus</span>
           </h2>
           <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
             Personal Expense Tracker & UPI Money Manager
@@ -257,4 +257,3 @@ export const AuthScreen: React.FC<AuthScreenProps> = ({ onOpenConfig, onContinue
     </div>
   );
 };
-

@@ -1,4 +1,4 @@
-# NaviPulse – Personal Expense Tracker & Money Manager
+# Navi Plus – Personal Expense Tracker & Money Manager
 
 > A modern, mobile-first personal expense-tracking application inspired by the user interface and user experience of the **Navi UPI app**.
 
@@ -76,5 +76,4 @@ npm run build
 ---
 
 ## ⚖️ Disclaimer
-*NaviPulse is an independent personal expense tracker and money management tool inspired by modern fintech UI paradigms. It does not connect to live banking networks or execute real financial transactions.*
-
+*Navi Plus is an independent personal expense tracker and money management tool inspired by modern fintech UI paradigms. It does not connect to live banking networks or execute real financial transactions.*

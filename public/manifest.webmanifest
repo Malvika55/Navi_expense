@@ -1,6 +1,6 @@
 {
-  "name": "NaviPulse Expense Tracker",
-  "short_name": "NaviPulse",
+  "name": "Navi Plus Expense Tracker",
+  "short_name": "Navi Plus",
   "description": "Personal expense tracker and money manager",
   "start_url": "/",
   "display": "standalone",

@@ -13,6 +13,7 @@ import { AddEditTransactionModal } from '../transactions/AddEditTransactionModal
 import { Transaction, TransactionType } from '../../types';
 import { Modal } from '../common/Modal';
 import { formatINR } from '../../lib/formatters';
+import { PaymentHub } from './PaymentHub';
 
 interface HomeViewProps {
   onNavigateTab: (tab: NavTab) => void;
@@ -50,23 +51,26 @@ export const HomeView: React.FC<HomeViewProps> = ({
       {/* 1. Navi Sleek Balance Card */}
       <BalanceCard />
 
-      {/* 2. Quick Action Buttons */}
+      {/* 2. Navi Plus payment shortcuts */}
+      <PaymentHub />
+
+      {/* 3. Quick Action Buttons */}
       <QuickActions
         onOpenAddExpense={() => onOpenAddModalWithType('expense')}
         onOpenAddIncome={() => onOpenAddModalWithType('income')}
         onNavigateTab={onNavigateTab}
       />
 
-      {/* 3. Smart Algorithmic Financial Insights */}
+      {/* 4. Smart Algorithmic Financial Insights */}
       <SmartInsightsBanner />
 
-      {/* 4. Monthly Spending & Budget Meter */}
+      {/* 5. Monthly Spending & Budget Meter */}
       <MonthlySpendingSummary onOpenBudgetModal={() => setIsAdjustBudgetOpen(true)} />
 
-      {/* 5. Mini Expense Breakdown Chart */}
+      {/* 6. Mini Expense Breakdown Chart */}
       <MiniBreakdownChart onViewAllCategories={() => onNavigateTab('money-manager')} />
 
-      {/* 6. Recent Transactions Section */}
+      {/* 7. Recent Transactions Section */}
       <div className="space-y-3">
         <div className="flex items-center justify-between px-1">
           <div className="flex items-center gap-2">
@@ -165,4 +169,3 @@ export const HomeView: React.FC<HomeViewProps> = ({
     </div>
   );
 };
-

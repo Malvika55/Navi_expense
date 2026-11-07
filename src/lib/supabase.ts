@@ -62,7 +62,7 @@ export function isSupabaseConfigured(): boolean {
   return Boolean(url && anonKey && url.startsWith('http'));
 }
 
-export const SUPABASE_SQL_SCHEMA = `-- Run this in your Supabase SQL Editor to set up NaviPulse tables & RLS
+export const SUPABASE_SQL_SCHEMA = `-- Run this in your Supabase SQL Editor to set up Navi Plus tables & RLS
 
 -- 1. Profiles Table
 CREATE TABLE IF NOT EXISTS public.profiles (
@@ -167,4 +167,3 @@ CREATE POLICY "Users can manage their own budgets"
   ON public.budgets FOR ALL
   USING (auth.uid() = user_id);
 `;
-

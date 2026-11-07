@@ -76,7 +76,7 @@ export function exportMonthlyReportSummary(
   });
 
   reportText += `\n===========================================================\n`;
-  reportText += `Generated automatically by NaviPulse on ${new Date().toLocaleString('en-IN')}\n`;
+  reportText += `Generated automatically by Navi Plus on ${new Date().toLocaleString('en-IN')}\n`;
 
   downloadFile(reportText, `navipulse_monthly_report_${monthLabel.replace(/\s+/g, '_')}.txt`, 'text/plain;charset=utf-8;');
 }
@@ -93,4 +93,3 @@ function downloadFile(content: string, filename: string, mimeType: string): void
   document.body.removeChild(link);
   URL.revokeObjectURL(url);
 }
-

@@ -63,7 +63,7 @@ export const PrintableStatementModal: React.FC<PrintableStatementModalProps> = (
                 <div className="w-7 h-7 rounded-lg bg-brand-600 text-white font-extrabold flex items-center justify-center text-sm">
                   N
                 </div>
-                <h2 className="text-lg font-extrabold tracking-tight">NaviPulse Financial</h2>
+                <h2 className="text-lg font-extrabold tracking-tight">Navi Plus Financial</h2>
               </div>
               <p className="text-[11px] text-gray-500 mt-0.5">Personal Expense & Passbook Statement</p>
             </div>
@@ -157,11 +157,10 @@ export const PrintableStatementModal: React.FC<PrintableStatementModalProps> = (
           </div>
 
           <div className="mt-6 pt-3 border-t border-gray-200 dark:border-gray-700 text-[10px] text-gray-400 text-center">
-            This statement was generated for personal money management via NaviPulse Expense Tracker.
+            This statement was generated for personal money management via Navi Plus Expense Tracker.
           </div>
         </div>
       </div>
     </Modal>
   );
 };
-

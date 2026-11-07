@@ -53,7 +53,7 @@ export const SupabaseConfigModal: React.FC<SupabaseConfigModalProps> = ({
         <div className="p-3.5 rounded-2xl bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-900/50 text-xs text-brand-900 dark:text-brand-200 flex items-start gap-2.5">
           <ShieldCheck size={18} className="text-brand-600 dark:text-brand-400 shrink-0 mt-0.5" />
           <div className="leading-relaxed">
-            NaviPulse uses <strong>Supabase Row Level Security (RLS)</strong>. Your
+            Navi Plus uses <strong>Supabase Row Level Security (RLS)</strong>. Your
             transactions, categories, and budgets are securely partitioned so only your
             authenticated account can access your data.
           </div>
@@ -148,4 +148,3 @@ export const SupabaseConfigModal: React.FC<SupabaseConfigModalProps> = ({
     </Modal>
   );
 };
-

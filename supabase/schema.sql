@@ -1,5 +1,5 @@
 -- ============================================================
--- NaviPulse - Supabase PostgreSQL Database Schema & RLS Setup
+-- Navi Plus - Supabase PostgreSQL Database Schema & RLS Setup
 -- ============================================================
 
 -- 1. Profiles Table
@@ -105,4 +105,3 @@ ALTER TABLE public.budgets ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Users can manage their own budgets"
   ON public.budgets FOR ALL
   USING (auth.uid() = user_id);
-

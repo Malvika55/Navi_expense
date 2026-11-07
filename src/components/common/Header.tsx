@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenSettings, onOpenAuth }) =>
           <div>
             <div className="flex items-center gap-1.5">
               <span className="font-extrabold text-base tracking-tight text-gray-900 dark:text-white">
-                Navi<span className="text-brand-600 dark:text-brand-400">Pulse</span>
+                Navi<span className="text-brand-600 dark:text-brand-400"> Plus</span>
               </span>
               <span className="text-[10px] font-semibold tracking-wider uppercase px-1.5 py-0.5 rounded bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300 border border-brand-200 dark:border-brand-900">
                 PRO

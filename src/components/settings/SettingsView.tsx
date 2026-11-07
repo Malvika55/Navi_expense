@@ -327,7 +327,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({ onOpenAuth, onOpenCo
       {/* About & Disclaimer */}
       <div className="p-4 rounded-3xl bg-gray-100/70 dark:bg-gray-800/40 border border-gray-200/50 dark:border-white/5 text-[11px] text-gray-500 dark:text-gray-400 space-y-1 text-center">
         <p className="font-bold text-gray-700 dark:text-gray-300">
-          NaviPulse Personal Expense Tracker & Money Manager v1.0.0
+          Navi Plus Personal Expense Tracker & Money Manager v1.0.0
         </p>
         <p>
           Inspired by the modern, minimalist user experience of the Navi UPI app. Built
