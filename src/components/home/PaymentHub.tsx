@@ -113,17 +113,17 @@ export const PaymentHub: React.FC = () => {
           <ArrowUpRight size={18} className="text-white/60" />
         </button>
 
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="grid grid-cols-4 gap-1.5 sm:gap-3">
           {actions.map(({ id, label, icon: Icon, className }) => (
             <button
               key={id}
               onClick={() => setActiveAction(id)}
               className="group flex min-w-0 flex-col items-center text-center transition-transform active:scale-95"
             >
-              <span className={`flex h-20 w-20 items-center justify-center rounded-full shadow-sm transition-transform group-hover:-translate-y-0.5 sm:h-24 sm:w-24 ${className}`}>
-                <Icon size={34} strokeWidth={2.2} />
+              <span className={`flex h-14 w-14 items-center justify-center rounded-full shadow-sm transition-transform group-hover:-translate-y-0.5 sm:h-24 sm:w-24 ${className}`}>
+                <Icon size={25} strokeWidth={2.2} />
               </span>
-              <span className="mt-2 max-w-[130px] text-sm font-semibold leading-5 text-gray-800 dark:text-gray-200">
+              <span className="mt-1.5 max-w-[80px] text-[10px] font-semibold leading-4 text-gray-800 dark:text-gray-200 sm:mt-2 sm:max-w-[130px] sm:text-sm sm:leading-5">
                 {label}
               </span>
             </button>
